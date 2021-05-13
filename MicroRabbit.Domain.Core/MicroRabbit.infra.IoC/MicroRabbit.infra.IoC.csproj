@@ -8,4 +8,9 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0-preview.3.21201.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\MicroRabit.Domain.Core\MicroRabbit.Domain.Core\MicroRabbit.Domain.Core.csproj" />
+    <ProjectReference Include="..\MicroRabbit.Infra.Bus\MicroRabbit.Infra.Bus.csproj" />
+  </ItemGroup>
+
 </Project>
